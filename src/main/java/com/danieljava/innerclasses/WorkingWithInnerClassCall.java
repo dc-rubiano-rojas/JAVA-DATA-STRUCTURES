@@ -1,4 +1,6 @@
-package com.danieljava;
+package com.danieljava.innerclasses;
+
+import com.danieljava.innerclasses.WorkingOuterClass;
 
 public class WorkingWithInnerClassCall {
 

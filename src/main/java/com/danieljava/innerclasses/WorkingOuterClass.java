@@ -1,4 +1,4 @@
-package com.danieljava;
+package com.danieljava.innerclasses;
 
 public class WorkingOuterClass {
     int number = 6;
