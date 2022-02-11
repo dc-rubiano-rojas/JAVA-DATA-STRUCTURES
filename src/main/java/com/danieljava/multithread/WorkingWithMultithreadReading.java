@@ -7,10 +7,14 @@ public class WorkingWithMultithreadReading {
 //          MultithreadingThing myThing = new MultithreadingThing(i);
             MultithreadingThingRunnable myThing = new MultithreadingThingRunnable(i);
             Thread mythread = new Thread(myThing);
+
 //          myThing.start();
             mythread.start();
+
 //          El metodo .join() hace que se espere hasta que el thread se ejecute para seguir con la siguiente linea
             mythread.join();
+
+//          El .isAlive() returna un boolean true si el thread no ha terminado.
 //          mythread.isAlive();
         }
     }
